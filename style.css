@@ -1,0 +1,89 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    background-color: var(--yellow);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.card {
+    height: fit-content;
+    width: min-content;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 1rem;
+    padding: 1.2rem;
+    box-shadow: 7px 7px 0px 0px rgba(0, 0, 0);
+}
+
+.card:hover {
+    box-shadow: 12px 12px 0px 0px rgba(0, 0, 0);
+}
+
+.image {
+    border-radius: .7rem;
+}
+
+.card-header {
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.tag {
+    background-color: var(--yellow);
+    width: fit-content;
+    padding: .3rem .8rem;
+    border-radius: .3rem;
+    font-weight: 800;
+}
+
+.date {
+    font-weight: 500;
+}
+
+.blog-link {
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.8rem;
+}
+
+.blog-link:hover {
+    color: var(--yellow);
+}
+
+.text {
+    color: var(--grey);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.user-avatar {
+    height: 2rem;
+    width: 2rem;
+}
+
+.username {
+    display: inline-block;
+    margin: 0px;
+    font-weight: 800;
+}
