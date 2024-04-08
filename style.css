@@ -27,6 +27,7 @@ body {
     border-radius: 1rem;
     padding: 1.2rem;
     box-shadow: 7px 7px 0px 0px rgba(0, 0, 0);
+    transition: box-shadow 200ms ease-in;
 }
 
 .card:hover {
@@ -59,6 +60,8 @@ body {
     text-decoration: none;
     color: var(--black);
     font-size: 1.8rem;
+    transition: color 200ms ease-in;
+
 }
 
 .blog-link:hover {
