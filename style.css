@@ -26,16 +26,18 @@ body {
     border: 1px solid var(--black);
     border-radius: 1rem;
     padding: 1.2rem;
-    box-shadow: 7px 7px 0px 0px rgba(0, 0, 0);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0);
     transition: box-shadow 200ms ease-in;
 }
 
 .card:hover {
-    box-shadow: 12px 12px 0px 0px rgba(0, 0, 0);
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0);
 }
 
 .image {
     border-radius: .7rem;
+    width: 15rem;
+    height: 11rem;
 }
 
 .card-header {
@@ -49,17 +51,19 @@ body {
     padding: .3rem .8rem;
     border-radius: .3rem;
     font-weight: 800;
+    font-size: 0.8rem;
 }
 
 .date {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 0.7rem;
 }
 
 .blog-link {
     font-weight: 800;
     text-decoration: none;
     color: var(--black);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     transition: color 200ms ease-in;
 
 }
@@ -71,7 +75,8 @@ body {
 .text {
     color: var(--grey);
     font-weight: 500;
-    line-height: 1.5rem;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
 }
 
 .user {
@@ -81,8 +86,8 @@ body {
 }
 
 .user-avatar {
-    height: 2rem;
-    width: 2rem;
+    height: 1.7rem;
+    width: 1.7rem;
 }
 
 .username {
